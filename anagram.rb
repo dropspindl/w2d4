@@ -20,7 +20,7 @@ end
 
 #time complexity is O(n^2) because Ruby's sort uses quick sort which is O(n^2)
 def third_anagram?(str1, str2)
-  str1.sort == str2.sort
+  str1.chars.sort == str2.chars.sort
 end
 
 #Time complexity is O(n) because each loop is not nested 
