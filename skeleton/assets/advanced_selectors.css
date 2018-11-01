@@ -41,7 +41,7 @@ ol {
 input[type="radio"] {
   cursor: pointer;
   outline: none;
-  -webkit-appearance: none;
+  -webkit-appearance: cd;
   background-image: url(../assets/stars.png);
 }
 
